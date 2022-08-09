@@ -11,7 +11,7 @@ function App() {
       <Layout/>
         <Routes>
           {/* <Route path='/' element={<Navigate to='/main-page' />} /> */}
-          <Route index element={<MainPage />} />
+          <Route path='/' element={<MainPage />} />
           <Route path='products' element={<Product />} />
           <Route path='/cart' element={<Cart />} />
           {/* set up a notFound page */}
