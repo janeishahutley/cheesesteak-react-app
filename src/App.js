@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import Layout from './components/layout/Layout'
 import MainPage from './pages/MainPage'
 import Product from './pages/Products'
@@ -10,7 +10,7 @@ function App() {
     <CartProvider>
       <Layout/>
         <Routes>
-          {/* <Route path='/' element={<Navigate to='/main-page' />} /> */}
+          
           <Route path='/' element={<MainPage />} />
           <Route path='products' element={<Product />} />
           <Route path='/cart' element={<Cart />} />
