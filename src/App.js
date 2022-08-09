@@ -8,17 +8,18 @@ import CartProvider from './state/CartProvider'
 function App() {
   return (
     <CartProvider>
-      <Layout>
+      <Layout/>
         <Routes>
-          <Route path='/' element={<Navigate to='/main-page' />} />
-          <Route path='/main-page/' element={<MainPage />} />
+          {/* <Route path='/' element={<Navigate to='/main-page' />} /> */}
+          <Route index element={<MainPage />} />
           <Route path='products' element={<Product />} />
           <Route path='/cart' element={<Cart />} />
           {/* set up a notFound page */}
         </Routes>
-      </Layout>
+  
     </CartProvider>
   )
 }
 
 export default App
+
