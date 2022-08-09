@@ -1,0 +1,86 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  width: 340px;
+  height: 345px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: url('../../assets/steak.jpg');
+  background-position: center;
+  background-color: #808080;
+  background-blend-mode: multiply;
+}
+
+.form-content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content input {
+  width: 250px;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #e8e2da;
+  margin-bottom: 8px;
+}
+
+.form-content label {
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.btn {
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+ 
+}
+
+.form-submit-btn {
+  color: #eee;
+  background-color: #a52a2a;
+  border-color: #a52a2a;
+}
+
+.form-cancel-btn {
+  border-color: #a52a2a;
+  margin-left: 15px;
+}
+
+.error-msg {
+  position: absolute;
+  bottom: 5%;
+  font-weight: bold;
+  color: #eee;
+}
+
+@media (min-width: 600px) {
+  .form {
+    height: 350px;
+    border-radius: 10px;
+  }
+  .form-submit-btn:hover {
+    background-color: #a19090;
+    color: #eee;
+    border-color: #eee;
+  }
+
+  .form-cancel-btn:hover {
+    background-color: #c15050;
+    color: #eee;
+  }
+  .btn {
+    cursor: pointer;
+  }
+}

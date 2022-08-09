@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  padding: 10px;
+}
+
+.form-input {
+  width: 40px;
+  text-align: center;
+}
+
+.form-btn {
+  background: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #a52a2a;
+  color: #eee;
+  border: none;
+  opacity: 0.9;
+  padding: 0 0.75rem;
+}
+
+.form-btn:hover {
+  background-color: #e02f2f;
+}
+
+.form-btn:focus,
+.form-input:focus {
+  outline: none;
+}
+
+.form-text {
+    position: absolute;
+    top: 85%;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 8px;
+}

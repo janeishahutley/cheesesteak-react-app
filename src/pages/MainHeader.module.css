@@ -1,0 +1,21 @@
+.main-header {
+  display: flex;
+  background-color: #302e2e;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header {
+  margin: 10px;
+  font-size: 30px;
+  color: #e02f2f;
+}
+
+@media (min-width: 600px) {
+  header .header {
+    width: 100%;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 15px;
+  }
+}
