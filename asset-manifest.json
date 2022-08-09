@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cheesesteak-react-app/static/css/main.2702e499.css",
+    "main.js": "/cheesesteak-react-app/static/js/main.84b1a5b2.js",
+    "static/media/steak.jpg": "/cheesesteak-react-app/static/media/steak.975edc414940e16fc716.jpg",
+    "index.html": "/cheesesteak-react-app/index.html",
+    "main.2702e499.css.map": "/cheesesteak-react-app/static/css/main.2702e499.css.map",
+    "main.84b1a5b2.js.map": "/cheesesteak-react-app/static/js/main.84b1a5b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2702e499.css",
+    "static/js/main.84b1a5b2.js"
+  ]
+}
