@@ -25,7 +25,7 @@ const DUMMY_DATA = [
     id: 's4',
     title: 'Chicken Pizza Steak',
     description: 'chicken, pizza sauce, mozzarella, pepperoni optional',
-    price: 14.00,
+    price: 14.99,
   },
 ]
 
