@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cheesesteak-react-app/static/css/main.2702e499.css",
-    "main.js": "/cheesesteak-react-app/static/js/main.ebab6a28.js",
+    "main.js": "/cheesesteak-react-app/static/js/main.e1c4d572.js",
     "static/media/steak.jpg": "/cheesesteak-react-app/static/media/steak.975edc414940e16fc716.jpg",
     "index.html": "/cheesesteak-react-app/index.html",
     "main.2702e499.css.map": "/cheesesteak-react-app/static/css/main.2702e499.css.map",
-    "main.ebab6a28.js.map": "/cheesesteak-react-app/static/js/main.ebab6a28.js.map"
+    "main.e1c4d572.js.map": "/cheesesteak-react-app/static/js/main.e1c4d572.js.map"
   },
   "entrypoints": [
     "static/css/main.2702e499.css",
-    "static/js/main.ebab6a28.js"
+    "static/js/main.e1c4d572.js"
   ]
 }
