@@ -13,19 +13,19 @@ const DUMMY_DATA = [
     id: 's2',
     title: 'Chicken Cheesesteak',
     description: 'chicken, choice of American cheese or mild provolone',
-    price: 12.99,
+    price: 13.99,
   },
   {
     id: 's3',
-    title: 'Pizza Cheesesteak',
+    title: 'Pizza Steak',
     description: 'ribeye steak, pizza sauce, mozzarella, pepperoni optional',
-    price: 12.99,
+    price: 14.99,
   },
   {
     id: 's4',
-    title: 'Pizza Cheesesteak',
-    description: 'ribeye steak, pizza sauce, mozzarella, pepperoni optional',
-    price: 12.99,
+    title: 'Chicken Pizza Steak',
+    description: 'chicken, pizza sauce, mozzarella, pepperoni optional',
+    price: 14.00,
   },
 ]
 
